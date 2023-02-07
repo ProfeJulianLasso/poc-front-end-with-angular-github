@@ -1,0 +1,138 @@
+<mxfile host="65bd71144e">
+    <diagram id="9r_XultMOuKvb_TH2KfO" name="Page-1">
+        <mxGraphModel dx="1036" dy="719" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="23" value="" style="endArrow=none;dashed=1;html=1;shadow=0;sketch=1;fillStyle=cross-hatch;strokeWidth=1;fontSize=16;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="21" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="590" as="sourcePoint"/>
+                        <mxPoint x="470" y="540" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="440"/>
+                            <mxPoint x="180" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=16;exitX=0.75;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="350"/>
+                            <mxPoint x="250" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;strokeColor=#6F0000;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="370"/>
+                            <mxPoint x="380" y="370"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;fontSize=16;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#a20025;strokeColor=#6F0000;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="60" y="390"/>
+                            <mxPoint x="600" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Atoms" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;exitX=0.5;exitY=0;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeWidth=3;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="250" y="210"/>
+                            <mxPoint x="410" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;sketch=1;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;fontSize=16;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="3" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="190"/>
+                            <mxPoint x="570" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Molecules" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;sketch=1;fillStyle=cross-hatch;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=0;strokeWidth=3;fontSize=16;endSize=6;fillColor=#6a00ff;strokeColor=#3700CC;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="350"/>
+                            <mxPoint x="570" y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Organisms" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;sketch=1;fillStyle=cross-hatch;html=1;shadow=0;strokeWidth=3;fontSize=16;endSize=6;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Templates" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Pages" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;sketch=1;curveFitting=1;jiggle=2;fillStyle=cross-hatch;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;h1&gt;Átomos&lt;/h1&gt;&lt;p&gt;Unidad mínima funcional.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=cross-hatch;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="475" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;shadow=0;sketch=1;fillStyle=cross-hatch;fontSize=16;endSize=6;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="18" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="520" as="sourcePoint"/>
+                        <mxPoint x="370" y="470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="10" y="500"/>
+                            <mxPoint x="10" y="280"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;Moléculas&lt;/h1&gt;&lt;p&gt;Compuesta por 1, 2 o más átomos.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=cross-hatch;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="410" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h1&gt;Organismos&lt;/h1&gt;&lt;p&gt;Compuesto mínimo por:&lt;/p&gt;&lt;p&gt;1, 2 o más moléculas.&lt;/p&gt;&lt;p&gt;1 molé&lt;span style=&quot;background-color: initial;&quot;&gt;cula y 1 átomo.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=cross-hatch;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="420" width="200" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=none;dashed=1;html=1;shadow=0;sketch=1;fillStyle=cross-hatch;strokeWidth=1;fontSize=16;endSize=6;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="24" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="500" as="sourcePoint"/>
+                        <mxPoint x="470" y="450" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="440" y="463"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="&lt;h1&gt;Plantillas&lt;/h1&gt;&lt;p&gt;Compuesto mínimo por:&lt;/p&gt;&lt;p&gt;1, 2 o más organismos.&lt;/p&gt;&lt;p&gt;1 organismo, 1 molé&lt;span style=&quot;background-color: initial;&quot;&gt;cula y/o 1 átomo.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=cross-hatch;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="10" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=none;dashed=1;html=1;shadow=0;sketch=1;fillStyle=cross-hatch;strokeWidth=1;fontSize=16;endSize=6;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="27">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="140" as="sourcePoint"/>
+                        <mxPoint x="530" y="90" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="&lt;h1&gt;Páginas&lt;/h1&gt;&lt;p&gt;Se componen de una plantilla.&lt;/p&gt;&lt;p&gt;La página es el uso de la plantilla con los datos que se requieren mostrar.&lt;br&gt;&lt;br&gt;La plantilla es la página pero sin los datos que se requieren mostrar.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fillStyle=cross-hatch;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="420" width="200" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=none;dashed=1;html=1;shadow=0;sketch=1;fillStyle=cross-hatch;strokeWidth=1;fontSize=16;endSize=6;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="740" y="420" as="sourcePoint"/>
+                        <mxPoint x="730" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="730" y="490"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,19 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .section1 {
+    background-image: url('../../../../../assets/images/lateral.webp');
+    background-position: center;
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 23%;
+  }
+
+  .section2 {
+    background-color: var(--primary-color);
+    width: 77%;
+  }
+}

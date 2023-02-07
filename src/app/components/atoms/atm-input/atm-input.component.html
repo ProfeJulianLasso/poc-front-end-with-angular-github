@@ -1,0 +1,45 @@
+<mat-form-field
+  appearance="outline"
+  [ngStyle]="{ width: width }"
+  color="accent"
+>
+  <mat-label>{{ label }}</mat-label>
+  <input
+    matInput
+    *ngIf="type === 'password'"
+    [type]="hide ? 'password' : 'text'"
+    [placeholder]="placeholder"
+    title="{{ placeholder }}"
+    [id]="id"
+    [name]="id"
+    [formControl]="formControl"
+  />
+  <input
+    matInput
+    *ngIf="type !== 'password'"
+    [type]="type"
+    [placeholder]="placeholder"
+    title="{{ placeholder }}"
+    [id]="id"
+    [name]="id"
+    [formControl]="formControl"
+  />
+  <mat-icon
+    *ngIf="type !== 'password' && icon"
+    matSuffix
+    svgIcon="icon"
+  ></mat-icon>
+  <button
+    *ngIf="type === 'password'"
+    matSuffix
+    mat-icon-button
+    type="button"
+    (click)="hide = !hide"
+  >
+    <mat-icon>{{ hide ? 'visibility_off' : 'visibility' }}</mat-icon>
+  </button>
+  <mat-error *ngIf="hasError()">
+    {{ errorMessage }}
+  </mat-error>
+  <!-- <mat-hint>Hint</mat-hint> -->
+</mat-form-field>

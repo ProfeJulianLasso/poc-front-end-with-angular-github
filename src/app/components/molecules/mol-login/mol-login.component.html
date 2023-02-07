@@ -1,0 +1,44 @@
+<mat-card class="widthBoxLogin">
+  <mat-card-header>
+    <mat-card-title>{{ title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form class="formLogin" [formGroup]="formLogin">
+      <dale-atm-input
+        type="email"
+        id="username"
+        [icon]="iconEmail"
+        [errors]="errorsUsername"
+        label="Correo electrónico"
+        [formControl]="getControl('username')"
+        placeholder="Digite su correo electrónico"
+        ngDefaultControl
+      ></dale-atm-input>
+      <dale-atm-input
+        id="password"
+        label="Contraseña"
+        [errors]="errorsPassword"
+        [type]="inputTypePassword"
+        placeholder="Digite su contraseña"
+        [formControl]="getControl('password')"
+        ngDefaultControl
+      ></dale-atm-input>
+    </form>
+    <div class="textCenter buttonPanel">
+      <div>
+        <dale-atm-button
+          [disabled]="formLogin.invalid"
+          [width]="btnWidth"
+          [btnText]="btnTextLogin"
+        ></dale-atm-button>
+      </div>
+      <div>
+        <dale-atm-link-button
+          [width]="btnWidth"
+          [text]="lnkText"
+          [routerLink]="lnkURL"
+        ></dale-atm-link-button>
+      </div>
+    </div>
+  </mat-card-content>
+</mat-card>
