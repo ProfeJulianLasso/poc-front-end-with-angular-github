@@ -23,7 +23,7 @@ export class AtmButtonComponent {
     this.width = 'fit-content';
     this.btnText = 'Lorem Ipsum';
     this.btnExecute = () => {
-      throw new Error('Method not implemented');
+      throw new Error('Method not implemented - atom');
     };
   }
 }

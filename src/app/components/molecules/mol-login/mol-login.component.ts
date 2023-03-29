@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 import { faAt, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -32,6 +32,9 @@ export class MolLoginComponent {
   @Input()
   errorsPassword: Map<string, string>;
 
+  @Input()
+  btnExecuteLogin: () => void;
+
   @Output()
   formLoginChange: EventEmitter<FormGroup>;
 
@@ -51,6 +54,9 @@ export class MolLoginComponent {
     this.errorsUsername = new Map<string, string>();
     this.errorsPassword = new Map<string, string>();
     this.formLoginChange = new EventEmitter<FormGroup>();
+    this.btnExecuteLogin = () => {
+      throw new Error('Method not implemented - molecule');
+    };
   }
 
   @Input()

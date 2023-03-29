@@ -28,6 +28,9 @@ export class TmplLoginComponent {
   @Input()
   errorsPassword: Map<string, string>;
 
+  @Input()
+  btnExecuteLogin: () => void;
+
   private _formLogin: FormGroup;
 
   @Output()
@@ -43,6 +46,9 @@ export class TmplLoginComponent {
     this.errorsUsername = new Map<string, string>();
     this.errorsPassword = new Map<string, string>();
     this.formLoginChange = new EventEmitter<FormGroup>();
+    this.btnExecuteLogin = () => {
+      throw new Error('Method not implemented - template');
+    };
   }
 
   @Input()

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from '../../services';
 
 @Component({
   selector: 'dale-login',
@@ -15,8 +16,9 @@ export class LoginComponent {
   lnkURL: string[];
   errorsUsername: Map<string, string>;
   errorsPassword: Map<string, string>;
+  btnExecuteLogin: () => void;
 
-  constructor() {
+  constructor(private readonly authService: AuthService) {
     this.lnkText = 'Olvidé mi contraseña';
     this.title = 'Iniciar sesión';
     this.lnkURL = ['../password-recovery'];
@@ -30,5 +32,8 @@ export class LoginComponent {
     this.errorsUsername.set('required', 'El nombre de usuario es requerido');
     this.errorsPassword = new Map<string, string>();
     this.errorsPassword.set('required', 'La contraseña es requerido');
+    this.btnExecuteLogin = () => {
+      this.authService.login();
+    };
   }
 }
